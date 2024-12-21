@@ -1,6 +1,4 @@
-# Create the README.md content based on the provided details
 
-readme_content = """
 # Vietnam Administrative Tree Optimization
 
 ## !Demo
@@ -53,23 +51,5 @@ Email: vietcao10@gmail.com
 ### Tham khảo
 - GitHub - CaoQuocViet/vietnam-administrative-tree
 
-### Kết luận
-Việc tối ưu hóa dữ liệu cây hành chính giúp đơn giản hóa việc quản lý và truy xuất thông tin địa chỉ, đồng thời nâng cao hiệu suất cho các ứng dụng sử dụng API này.
-
 ### Hỗ trợ
 Nếu bạn gặp bất kỳ vấn đề nào khi sử dụng dự án, vui lòng mở issue trên repository GitHub để được hỗ trợ.
-
-### Đóng góp
-Các đóng góp được hoan nghênh! Vui lòng xem `CONTRIBUTING.md` để biết thêm chi tiết.
-
-### Versioning
-Dự án sử dụng SemVer để quản lý phiên bản. Các phiên bản hiện tại và quá khứ đều được liệt kê trong tags trên GitHub.
-"""
-
-# Save the content to a markdown file
-file_path = "/mnt/data/README.md"
-
-with open(file_path, "w") as f:
-    f.write(readme_content)
-
-file_path  # Return file path for download
